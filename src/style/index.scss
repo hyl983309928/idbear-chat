@@ -1,0 +1,63 @@
+
+@import './transition.scss';
+@import './mixin.scss';
+@import './global.scss';
+@import "./variate.scss";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+  margin:0;
+  padding:0;
+}
+a {
+  text-decoration: none;
+  color: $blue;
+}
+a:active{
+  color: $text-minor;
+}
+ul,ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {vert-align: top;vertical-align: top;}
+
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+input，textarea{outline:none}
+// -webkit-appearance:none
+// -webkit-user-select:none
+input,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+// -webkit-touch-callout:none
+body{
+  // -webkit-user-select: none;
+  font-size: 0.24rem;
+  margin: 0;
+  color: $text-primary;
+  //font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC","Helvetica Neue",STHeiti,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+html{
+  height: 100vh;
+  width: 100%;
+}
+.cube {
+}
+
+.grayBar{
+  height:0.16rem;
+  background: #eeeeee;
+}
+.weui-loadmore__tips{
+  color: #e5e5e5 !important;
+}
